@@ -1,10 +1,11 @@
 package com.example;
 
 public class Node{
-    int data;
     Node next;
+    int data;
 
-    public Node(int data){
+    public Node(int data) {
         this.data = data;
     }
+
 }
